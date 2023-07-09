@@ -1,0 +1,35 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	scroll-behavior: smooth;
+}
+
+html,
+body,
+input,
+textarea,
+button,
+select {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	color: #000;
+	font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+	outline: none !important;
+	cursor: pointer;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2em 1em;
+}
